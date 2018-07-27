@@ -1,4 +1,12 @@
 @import url(styles.css);
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #ff9d00;
+  border-radius: 5px;
+}
 
 #demo {
 position: relative;
